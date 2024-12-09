@@ -11,6 +11,7 @@ cashiers:
     withPayload: true
     relayerURL: ":7200"
     cashierContractAddress: "0x4Aad62e13cBd5cD6F5BcEc649cc24f6185011fe1"
+    tokenSafeContractAddress: "0xc4A29a94f12be03033daa4e6Ce9b9678c26275a2"
     validatorContractAddress: "0xE7eBA1CEA51EC9B3AcCC16728e3B8786560c59d5"
     startBlockHeight: 32739910
     transferTableName: "iotex_transfers"
@@ -91,6 +92,7 @@ cashiers:
     withPayload: true
     relayerURL: ":7203"
     cashierContractAddress: "0xa016f866a606221E9C9E6ab3a942Bfc81F6074f4"
+    tokenSafeContractAddress: "0xc4A29a94f12be03033daa4e6Ce9b9678c26275a2"
     validatorContractAddress: "0x95C6F6Af2c0Fa069768203FDa963d7626efC794a"
     startBlockHeight: 32739491
     transferTableName: "iotex_to_bsc_transfers"
@@ -135,6 +137,7 @@ cashiers:
     withPayload: true
     relayerURL: ":7204"
     cashierContractAddress: "0x8114746E4308a4d3Ff2a74B66414fF35657Fa0E2"
+    tokenSafeContractAddress: "0xc4A29a94f12be03033daa4e6Ce9b9678c26275a2"
     previousCashierContractAddress: "0x124B468860ac994ef28D11643d16e88dd4F26085"
     validatorContractAddress: "0x87E2D48De6CC2029fFc1a915462e4Aa597890cd6"
     startBlockHeight: 32723537
