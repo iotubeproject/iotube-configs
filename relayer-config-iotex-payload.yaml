@@ -24,9 +24,14 @@ validators:
       0x1029f89f03582db752d02D72e32e108939529305:
         # WIOTX -> IOTX
         0xA00744882684C3e4747faEFD68D283eA44099D03: "0x0000000000000000000000000000000000000000"
+  - fromSolana: true
+    address: "0x5b1e6492F4B10F358527b19D885471F4C490ABD6"
+    cashiers:
+      - "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
 database:
   uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "iotex_transfers"
 witnessTableName: "iotex_witnesses"
+newTransactionTableName: "solana_new_transfers"
 bonus: "500000000000000000"
