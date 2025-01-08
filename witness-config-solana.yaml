@@ -40,6 +40,9 @@ cashiers:
       # UPT
       - token1: "UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG"
         token2: "0x7D6e5990354a899e3cE3Ee8aAF5f380dDD1b29A1"
+      # SENTAI
+      - token1: "CXPLyc3EX8WySgEXLbjhuA7vy8EKQokVJYQuJm2jpump"
+        token2: "0xeaaf0e6Be5B33ee472E93ac7c1FCc10f57186986"
     decimalRound:
       - token1: "xgf3DoXeqCRVJ9hzU2vbTjfbs6j5BpCHWSmVGBV7Ryx"
         amount: 9
