@@ -47,6 +47,10 @@ cashiers:
       - token1: "io104h9nyp4f2yeu08ra6927hecphw3k2dpyrnt5j"
         token2: "2TANKzurze7DLzGs1b5QEurgTEiKm8crBhiPMdFxHxCE"
         tokenMint: "UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG"
+      # SENTAI      
+      - token1: "io1a2hsu6l9kvlwguhf8trurlxppat3s6vxyl9y8u"
+        token2: "6kSq3ZbBDjLegqMdRCzdL6QwGSwqZ2yQL2YsTLRZg6Kf"
+        tokenMint: "CXPLyc3EX8WySgEXLbjhuA7vy8EKQokVJYQuJm2jpump"
     decimalRound:
       - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
         amount: -9
