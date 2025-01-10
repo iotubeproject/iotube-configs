@@ -20,7 +20,7 @@ cashiers:
       - token1: "So11111111111111111111111111111111111111112"
         token2: "0xA1F3f211d9B33f2086a800842836D67F139B9A7A"
       # CIOTX
-      - token1: "xgf3DoXeqCRVJ9hzU2vbTjfbs6j5BpCHWSmVGBV7Ryx"
+      - token1: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
         token2: "0x99b2b0efb56e62e36960c20cd5ca8ec6abd5557a"
       # RENDER
       - token1: "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof"
@@ -44,5 +44,5 @@ cashiers:
       - token1: "CXPLyc3EX8WySgEXLbjhuA7vy8EKQokVJYQuJm2jpump"
         token2: "0xeaaf0e6Be5B33ee472E93ac7c1FCc10f57186986"
     decimalRound:
-      - token1: "xgf3DoXeqCRVJ9hzU2vbTjfbs6j5BpCHWSmVGBV7Ryx"
+      - token1: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
         amount: 9

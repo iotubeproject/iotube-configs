@@ -21,8 +21,8 @@ cashiers:
         tokenMint: "So11111111111111111111111111111111111111112"
       # CIOTX
       - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
-        token2: "8DqC4xipdSztGiTmVRPoAYbfa4hKmTDvPMzmfCUxmU8S"
-        tokenMint: "xgf3DoXeqCRVJ9hzU2vbTjfbs6j5BpCHWSmVGBV7Ryx"
+        token2: "GyyyCXcyL2vk8igomynjB8NyWRwRfWe3UC7TnU4rvPvi"
+        tokenMint: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
       # RENDER
       - token1: "io12pmu2xkcyk97w2ykk53fs76fq6x6yv43wccrvg"
         token2: "AhncMbaGvpmb9tFSfQ71fBba5mLHQvXvmRwvijUir2tH"
