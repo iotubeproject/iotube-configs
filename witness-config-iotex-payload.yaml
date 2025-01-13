@@ -88,6 +88,9 @@ cashiers:
       # USDa
       - token1: "0xeaa38983d3370e35fb42229f89e816e28035a74b"
         token2: "0xBB76063476A79F73624386795f4CcA855954C891"
+      # Network3
+      - token1: "0x4d736d611a309ce036c9f62efeb1af2baf14bb2a"
+        token2: "0x33c9343db7ac99d61880dd6b32a3845885a81b5c"
   - id: "iotex-to-bsc-payload"
     withPayload: true
     relayerURL: ":7203"
