@@ -51,6 +51,10 @@ cashiers:
       - token1: "io1a2hsu6l9kvlwguhf8trurlxppat3s6vxyl9y8u"
         token2: "6kSq3ZbBDjLegqMdRCzdL6QwGSwqZ2yQL2YsTLRZg6Kf"
         tokenMint: "CXPLyc3EX8WySgEXLbjhuA7vy8EKQokVJYQuJm2jpump"
+      # N3
+      - token1: "io1f4ek6cg6xzwwqdkf7ch0avd09wh3fwe2pfgt6l"
+        token2: "CLVgTyeoS4fWT45nnCLy7AvtNXd44aWNMd1K62eYS7tr"
+        tokenMint: "9s7SZCXGU5i89hDH4zxYWo9ZdRL9ejTMo85VUR96wU5V"
     decimalRound:
       - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
         amount: -9
