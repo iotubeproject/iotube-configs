@@ -52,10 +52,12 @@ cashiers:
         token2: "6kSq3ZbBDjLegqMdRCzdL6QwGSwqZ2yQL2YsTLRZg6Kf"
         tokenMint: "CXPLyc3EX8WySgEXLbjhuA7vy8EKQokVJYQuJm2jpump"
       # N3
-      - token1: "io1f4ek6cg6xzwwqdkf7ch0avd09wh3fwe2pfgt6l"
-        token2: "CLVgTyeoS4fWT45nnCLy7AvtNXd44aWNMd1K62eYS7tr"
-        tokenMint: "9s7SZCXGU5i89hDH4zxYWo9ZdRL9ejTMo85VUR96wU5V"
+      - token1: "io10ah3f8lvvj9t7nhgc4v7kfxcqy9tzqj7m6s32t"
+        token2: "DhwUyeJ8xqY3J7HpGhcymJ9Y6YNSvaCKYGDga1wyC5cW"
+        tokenMint: "C7DpniLsJBFEZvt6SnS5Ac8tdwuxCW4T3mS1JrfntDdX"
     decimalRound:
       - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
+        amount: -9
+      - token1: "io10ah3f8lvvj9t7nhgc4v7kfxcqy9tzqj7m6s32t"
         amount: -9
     toSolana: true
