@@ -25,7 +25,7 @@ validators:
         # WIOTX -> IOTX
         0xA00744882684C3e4747faEFD68D283eA44099D03: "0x0000000000000000000000000000000000000000"
   - fromSolana: true
-    address: "0x5b1e6492F4B10F358527b19D885471F4C490ABD6"
+    address: "0xfb353846e878f11b22d19df2da9fa8b11f9d4e20"
     cashiers:
       - "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
 database:

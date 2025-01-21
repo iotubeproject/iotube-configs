@@ -10,7 +10,7 @@ cashiers:
   - id: "solana-to-iotex"
     relayerURL: ":7008"
     startBlockHeight: 287672853
-    validatorContractAddress: "io1tv0xfyh5ky8ntpf8kxwcs4r37nzfp27k5pu07k"
+    validatorContractAddress: "io1lv6ns3hg0rc3kgk3nhed48agky0e6n3q7uc9mf"
     cashierContractAddress: "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
     transferTableName: "solana_to_iotex_transfers"
     qpsLimit: 5
