@@ -8,7 +8,7 @@ database:
   driver: "mysql"
 cashiers:
   - id: "solana-to-iotex"
-    relayerURL: ":7008"
+    relayerURL: ":7201"
     startBlockHeight: 287672853
     validatorContractAddress: "io1lv6ns3hg0rc3kgk3nhed48agky0e6n3q7uc9mf"
     cashierContractAddress: "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
