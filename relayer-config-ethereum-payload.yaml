@@ -11,7 +11,7 @@ validators:
   - withPayload: true
     address: "0xE7eBA1CEA51EC9B3AcCC16728e3B8786560c59d5"
     cashiers:
-      - "0x4Aad62e13cBd5cD6F5BcEc649cc24f6185011fe1"
+      - address: "0x4Aad62e13cBd5cD6F5BcEc649cc24f6185011fe1"
 unwrappers:
   0xeDEC2dAD0b20A46678491bb04c53Cdc89f1b4287:
     # INJ

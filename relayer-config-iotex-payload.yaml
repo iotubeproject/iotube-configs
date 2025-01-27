@@ -10,13 +10,16 @@ validators:
   - withPayload: true
     address: "0x915241176a644A29F46F5F4F8Bd49309e461a9bD"
     cashiers:
-      - "0x1B9AA865d74b2B77fFdbCF507B56a7b3AB43Bac4"
-      - "0x990B503f8C7353f1caB6f9D5bbF8f0Be2718D731"
-      - "0x78de1E0b76523Ac6E190F89FFC46571346940204"
+      - address: "0x1B9AA865d74b2B77fFdbCF507B56a7b3AB43Bac4"
+        tokens:
+          0x9F90B457Dea25eF802E38D470ddA7343691D8FE1:
+            0xD2dc891b5C3d676AaBa3319FE38711CcfD79fa94: 450000000000000
+      - address: "0x990B503f8C7353f1caB6f9D5bbF8f0Be2718D731"
+      - address: "0x78de1E0b76523Ac6E190F89FFC46571346940204"
   - fromSolana: true
     address: "0xfb353846e878f11b22d19df2da9fa8b11f9d4e20"
     cashiers:
-      - "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
+      - address: "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
 unwrappers:
   # USDC Unwrapper
   0xC98F3af6312B9AE0b8DAe7488fFc570287907559:
