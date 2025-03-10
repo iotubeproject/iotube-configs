@@ -47,7 +47,7 @@ cashiers:
       - token1: "io104h9nyp4f2yeu08ra6927hecphw3k2dpyrnt5j"
         token2: "2TANKzurze7DLzGs1b5QEurgTEiKm8crBhiPMdFxHxCE"
         tokenMint: "UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG"
-      # SENTAI      
+      # SENTAI
       - token1: "io1a2hsu6l9kvlwguhf8trurlxppat3s6vxyl9y8u"
         token2: "6kSq3ZbBDjLegqMdRCzdL6QwGSwqZ2yQL2YsTLRZg6Kf"
         tokenMint: "CXPLyc3EX8WySgEXLbjhuA7vy8EKQokVJYQuJm2jpump"
@@ -55,6 +55,10 @@ cashiers:
       - token1: "io10ah3f8lvvj9t7nhgc4v7kfxcqy9tzqj7m6s32t"
         token2: "DhwUyeJ8xqY3J7HpGhcymJ9Y6YNSvaCKYGDga1wyC5cW"
         tokenMint: "C7DpniLsJBFEZvt6SnS5Ac8tdwuxCW4T3mS1JrfntDdX"
+      # ROAM
+      - token1: "io1rvmjurqm69ns5ghnafxsfuwgpaluh5h92dymue"
+        token2: "59V1S3nJp1a6Ao7746fxSkvcKFepTR6kr2kP7oEtFann"
+        tokenMint: "RoamA1USA8xjvpTJZ6RvvxyDRzNh6GCA1zVGKSiMVkn"
     decimalRound:
       - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
         amount: -9
