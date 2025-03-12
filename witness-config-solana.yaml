@@ -49,6 +49,9 @@ cashiers:
       # ROAM
       - token1: "RoamA1USA8xjvpTJZ6RvvxyDRzNh6GCA1zVGKSiMVkn"
         token2: "0x1B372E0C1bD1670A22F3Ea4d04F1c80F7FcBd2e5"
+      # HVLO
+      - token1: "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
+        token2: "0xd7b56d5450222ef2513ebce92ea980859bcadf91"
     decimalRound:
       - token1: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
         amount: 9
