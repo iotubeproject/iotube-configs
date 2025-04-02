@@ -6,7 +6,7 @@ ethGasPriceLimit: 50000000000
 grpcPort: 7204
 grpcProxyPort: 8204
 privateKey: ""
-slackWebHook: "" 
+slackWebHook: ""
 validators:
   - withPayload: true
     address: "0x87E2D48De6CC2029fFc1a915462e4Aa597890cd6"
@@ -29,6 +29,8 @@ unwrappers:
     0x72F30B99C6bc3681508950b47A50fe0b18eF4BE6: "0x3a9A81d576d83FF21f26f325066054540720fC34"
     # WIFI
     0x8F26b442B6681567f6EaA75828140712f939Fb9e: "0xE238Ecb42C424E877652AD82d8A939183A04C35f"
+    # ECLD
+    0x85D62B139464aaFEA83EdF790D2e723560b837bb: "0xc6920888988cAcEeA7ACCA0c96f2D65b05eE22Ba"
 database:
   uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"

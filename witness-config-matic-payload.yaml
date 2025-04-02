@@ -62,3 +62,6 @@ cashiers:
       # MYST
       - token2: "io1t6ujp39vhku3adg3uxajjvcgyu5h36q8yfsurk"
         token1: "0x9D06d28aDaC1d9843034c61EE22991469413d790"
+      # ECLD
+      - token2: "io15ceyyccy8cwz5cx3vwdteckk3tzy2y2l9802y0"
+        token1: "0x85D62B139464aaFEA83EdF790D2e723560b837bb"
