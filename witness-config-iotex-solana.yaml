@@ -19,10 +19,6 @@ cashiers:
       - token1: "io158elyywekvljpp4gqzzzsdkk0ufehxn6g3aa0u"
         token2: "3qdPWqm2iEYkTXRk3XGkuabEeXfentCUwJP1cCWrkre5"
         tokenMint: "So11111111111111111111111111111111111111112"
-      # CIOTX
-      - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
-        token2: "GyyyCXcyL2vk8igomynjB8NyWRwRfWe3UC7TnU4rvPvi"
-        tokenMint: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
       # RENDER
       - token1: "io12pmu2xkcyk97w2ykk53fs76fq6x6yv43wccrvg"
         token2: "AhncMbaGvpmb9tFSfQ71fBba5mLHQvXvmRwvijUir2tH"
@@ -64,8 +60,6 @@ cashiers:
         token2: "3M5xge1LySbU9bjmqQJ1ivnLBERq1Dpn8wurUVdsi7t3"
         tokenMint: "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
     decimalRound:
-      - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
-        amount: -9
       - token1: "io10ah3f8lvvj9t7nhgc4v7kfxcqy9tzqj7m6s32t"
         amount: -9
     toSolana: true

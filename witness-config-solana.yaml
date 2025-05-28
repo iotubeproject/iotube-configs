@@ -19,9 +19,6 @@ cashiers:
       # WSOL
       - token1: "So11111111111111111111111111111111111111112"
         token2: "0xA1F3f211d9B33f2086a800842836D67F139B9A7A"
-      # CIOTX
-      - token1: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
-        token2: "0x99b2b0efb56e62e36960c20cd5ca8ec6abd5557a"
       # RENDER
       - token1: "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof"
         token2: "0x5077C51aD8258bE72896B522987b49068da232B1"
@@ -53,7 +50,5 @@ cashiers:
       - token1: "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
         token2: "0xd7b56d5450222ef2513ebce92ea980859bcadf91"
     decimalRound:
-      - token1: "6hyKjmnuX6je63fEhWnog9kVnqp9WeKWFeXxnYeUMW7d"
-        amount: 9
       - token1: "C7DpniLsJBFEZvt6SnS5Ac8tdwuxCW4T3mS1JrfntDdX"
         amount: 9
