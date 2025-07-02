@@ -49,6 +49,9 @@ cashiers:
       # HVLO
       - token1: "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
         token2: "0xd7b56d5450222ef2513ebce92ea980859bcadf91"
+      # TSLAx
+      - token1: "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
+        token2: "0x631723a1e0f11bf813d31d1e40816333cce8e5d7"
     decimalRound:
       - token1: "C7DpniLsJBFEZvt6SnS5Ac8tdwuxCW4T3mS1JrfntDdX"
         amount: 9
