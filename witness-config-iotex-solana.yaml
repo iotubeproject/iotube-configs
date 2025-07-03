@@ -63,6 +63,7 @@ cashiers:
       - token1: "io1vvtj8g0q7ydlsy7nr50ypqtrx0xw3ewhwv3u5d"
         token2: "7JKfYwXoFspHtPa4vpCbkNg1RZWRkhy7aD281Q2v3yTa"
         tokenMint: "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
+        tokenProgramID: "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
     decimalRound:
       - token1: "io10ah3f8lvvj9t7nhgc4v7kfxcqy9tzqj7m6s32t"
         amount: -9
