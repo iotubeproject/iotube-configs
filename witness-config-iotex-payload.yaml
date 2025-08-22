@@ -136,6 +136,9 @@ cashiers:
       # DRF
       - token1: "io1mm5eya89mz3dmp0lqtlfuydf67nrdhnwg92dy4"
         token2: "0x02dF5253Bc4EfC9F8f744133Ff99981b18Df0473"
+      # XPIN
+      - token1: "io10gn4cf76dchldp6zkhgh6y0d4dq8lye8d53kjj"
+        token2: "0x486501a021514ac9a3e5023b5ea4a69a93b725ca"
   - id: "iotex-to-matic-payload"
     withPayload: true
     relayerURL: ":7204"
