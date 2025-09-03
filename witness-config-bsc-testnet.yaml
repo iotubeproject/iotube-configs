@@ -1,0 +1,20 @@
+chain: "bsc-testnet"
+grpcPort: 9184
+grpcProxyPort: 9185
+interval: 15s
+batchSize: 500
+database:
+  uri: "root:kdfjjrU64fjK58H@tcp(localhost:13306)/witness?parseTime=true"
+  driver: "mysql"
+cashiers:
+  - id: "bsc-testnet-to-iotex-testnet"
+    withPayload: true
+    relayerURL: ":7101"
+    startBlockHeight: 63984491
+    validatorContractAddress: "0x008e3c004cf616b3074E09cDAcCbAC821f081b4e"
+    cashierContractAddress: "0xf9729F9050DACA12778d7D1d638fb24f6660AAa6"
+    transferTableName: "bsc_testnet_transfers"
+    tokenPairs:
+      # WBNB
+      - token2: "0xFd57f47E48eC422599Fa44c4F370D7a474B38bBb"
+        token1: "0x8bb487Db47c9F957CBd995AedDFbaa8895522F3D"

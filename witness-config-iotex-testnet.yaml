@@ -7,6 +7,17 @@ database:
   uri: "root:kdfjjrU64fjK58H@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"
 cashiers:
+  - id: "iotex-testnet-to-bsc-testnet"
+    withPayload: true
+    relayerURL: ":7100"
+    cashierContractAddress: "0x5E0Eba3f0c9e047BbcD88441865F97643ab97Fd3"
+    validatorContractAddress: "0xEf503971Aec1BC3cF3D896742Fa82975dCcB3162"
+    startBlockHeight: 35238427
+    transferTableName: "iotex_testnet_to_bsc_testnet_transfers"
+    tokenPairs:
+      # WBNB
+      - token1: "0xFd57f47E48eC422599Fa44c4F370D7a474B38bBb"
+        token2: "0x8bb487Db47c9F957CBd995AedDFbaa8895522F3D"
   - id: "iotex-testnet-to-sepolia"
     withPayload: true
     relayerURL: ":7100"

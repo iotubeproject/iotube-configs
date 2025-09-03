@@ -1,0 +1,18 @@
+chain: "bsc-testnet"
+interval: 5m
+clientURL: "https://bsc-testnet-rpc.publicnode.com"
+ethConfirmBlockNumber: 20
+ethGasPriceLimit: 10000000000
+grpcPort: 7102
+grpcProxyPort: 8102
+privateKey: ""
+validators:
+  - withPayload: true
+    address: "0xEf503971Aec1BC3cF3D896742Fa82975dCcB3162"
+    cashiers:
+      - address: "0x5E0Eba3f0c9e047BbcD88441865F97643ab97Fd3"
+database:
+  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  driver: "mysql"
+transferTableName: "bsc_testnet_transfers"
+witnessTableName: "bsc_testnet_witnesses"
