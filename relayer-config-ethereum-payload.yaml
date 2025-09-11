@@ -2,7 +2,7 @@ chain: "ethereum"
 interval: 2m
 clientURL: ""
 ethConfirmBlockNumber: 20
-ethGasPriceLimit: 10000000000
+ethGasPriceLimit: 70000000000
 grpcPort: 7200
 grpcProxyPort: 8200
 privateKey: ""

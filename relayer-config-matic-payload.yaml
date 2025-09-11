@@ -2,7 +2,7 @@ chain: "matic"
 interval: 1m
 clientURL: "https://rpc-mainnet.maticvigil.com"
 ethConfirmBlockNumber: 255
-ethGasPriceLimit: 50000000000
+ethGasPriceLimit: 300000000000
 grpcPort: 7204
 grpcProxyPort: 8204
 privateKey: ""
