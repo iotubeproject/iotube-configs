@@ -1,6 +1,4 @@
 chain: "iotex-testnet"
-grpcPort: 9180
-grpcProxyPort: 9181
 interval: 10s
 batchSize: 1000
 database:

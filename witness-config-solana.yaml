@@ -1,6 +1,4 @@
 chain: "solana"
-grpcPort: 9120
-grpcProxyPort: 9121
 interval: 1m
 batchSize: 150
 database:
