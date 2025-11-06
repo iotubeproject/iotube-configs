@@ -44,3 +44,6 @@ cashiers:
       # XPIN
       - token1: "0x486501a021514ac9a3e5023b5ea4a69a93b725ca"
         token2: "io10gn4cf76dchldp6zkhgh6y0d4dq8lye8d53kjj"
+      # NB
+      - token1: "0xD0781be7335ec2C820bD3F9687dDe809892d985e"
+        token2: "io130c604xy86n3l0c5s5yx4a4lzklslh6ptq0m94"
