@@ -1,4 +1,6 @@
 chain: "ethereum"
+grpcPort: 9282
+grpcProxyPort: 9283
 interval: 1m
 batchSize: 40
 database:

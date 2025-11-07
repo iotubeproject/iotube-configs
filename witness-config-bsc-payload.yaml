@@ -1,4 +1,6 @@
 chain: "bsc"
+grpcPort: 9286
+grpcProxyPort: 9287
 interval: 30s
 batchSize: 100
 database:

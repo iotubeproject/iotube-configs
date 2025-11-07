@@ -1,4 +1,6 @@
 chain: "bsc-testnet"
+grpcPort: 9184
+grpcProxyPort: 9185
 interval: 15s
 batchSize: 500
 database:

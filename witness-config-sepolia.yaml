@@ -1,4 +1,6 @@
 chain: "sepolia"
+grpcPort: 9182
+grpcProxyPort: 9183
 interval: 15s
 batchSize: 500
 database:

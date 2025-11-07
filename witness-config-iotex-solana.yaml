@@ -1,4 +1,6 @@
 chain: "iotex"
+grpcPort: 9320
+grpcProxyPort: 9321
 interval: 30s
 batchSize: 1000
 database:
