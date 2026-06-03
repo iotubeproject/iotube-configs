@@ -2,7 +2,7 @@ chain: "solana"
 grpcPort: 9120
 grpcProxyPort: 9121
 interval: 1m
-batchSize: 150
+batchSize: 5000
 database:
   uri: "root:kdfjjrU64fjK58H@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"
@@ -13,8 +13,7 @@ cashiers:
     validatorContractAddress: "io1lv6ns3hg0rc3kgk3nhed48agky0e6n3q7uc9mf"
     cashierContractAddress: "A9SGRcytnfx6U1QrnMUwK5sxYyCYY3MpyrPcyeafhSMF"
     transferTableName: "solana_to_iotex_transfers"
-    qpsLimit: 5
-    disablePull: true
+    qpsLimit: 3
     tokenPairs:
       # WSOL
       - token1: "So11111111111111111111111111111111111111112"
