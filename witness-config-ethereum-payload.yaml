@@ -53,8 +53,8 @@ cashiers:
       - token2: "io1cxfj43hs44nqhc6pkhycpezd7vdrpafgxnnzdt"
         token1: "0xb0Ed1F44833C6b2Afa39a6a85ff62C8ad96F5275"
       # CIOTX
-      - token2: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
-        token1: "0x9f90b457dea25ef802e38d470dda7343691d8fe1"
+#      - token2: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
+#        token1: "0x9f90b457dea25ef802e38d470dda7343691d8fe1"
       # CCCS
       - token2: "io1daejpenv38639dw8xplp7c9zr4ff0c9p9kfx3g"
         token1: "0xf79deaBc1406a3AD07c70877fBaEb90777B77E68"
