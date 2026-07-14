@@ -11,7 +11,7 @@ cashiers:
   - id: "matic-to-iotex-payload"
     withPayload: true
     relayerURL: ":7201"
-    startBlockHeight: 63196610
+    startBlockHeight: 87000000
     cashierContractAddress: "0x990B503f8C7353f1caB6f9D5bbF8f0Be2718D731"
     tokenSafeContractAddress: "0xA239F03Cda98A7d2AaAA51e7bF408e5d73399e45"
     validatorContractAddress: "0x915241176a644A29F46F5F4F8Bd49309e461a9bD"
@@ -37,10 +37,12 @@ cashiers:
         token1: "0xD6DF932A45C0f255f85145f286eA0b292B21C90B"
       - token2: "io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh"
         token1: "0xcFb54a6D2dA14ABeCD231174FC5735B4436965D8"
-      - token2: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
-        token1: "0x300211Def2a644b036A9bdd3e58159bb2074d388"
-      - token2: "io1g29kuat5d727cqcjv5ta8607ys9kdp5fx702ua"
-        token1: "0xe04E81331bDcBfBF2D1342714812d546a55CB6DC"
+      # CIOTX
+#      - token2: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
+#        token1: "0x300211Def2a644b036A9bdd3e58159bb2074d388"
+      # SHIBX
+#      - token2: "io1g29kuat5d727cqcjv5ta8607ys9kdp5fx702ua"
+#        token1: "0xe04E81331bDcBfBF2D1342714812d546a55CB6DC"
       # GEOD
       - token2: "io13cej9ysx7unfj0j200ma5g687d6rh795rk3v3n"
         token1: "0xf53224ec685b674eb4f5c365d30876efb05fbfe5"
@@ -48,20 +50,20 @@ cashiers:
       - token2: "io1v8dekzzrymfz28xtqffvrr7ekr5g0jj0fcz5ea"
         token1: "0x7c09a86b761bfd9d996fe0d7ff8390c4ee7b3aec"
       # XNET
-      - token2: "io12t04n0staz4a4wafuwrzerq0r79nl6w2cphpeh"
-        token1: "0x1524b9de9aa259633a2e1dad37476f24898e3aaa"
+#      - token2: "io12t04n0staz4a4wafuwrzerq0r79nl6w2cphpeh"
+#        token1: "0x1524b9de9aa259633a2e1dad37476f24898e3aaa"
       # WNT
-      - token2: "io12falqd0u5fje0jtx23n535egfzkl2gtwes6r58"
-        token1: "0xFBcAA472E25994E96889ae33C1b185DaD7bFf3Ef"
+#      - token2: "io12falqd0u5fje0jtx23n535egfzkl2gtwes6r58"
+#        token1: "0xFBcAA472E25994E96889ae33C1b185DaD7bFf3Ef"
       # WIFI
-      - token2: "io1em553udth5j85hjp4z9j3xgdhq00qz7uq5egha"
-        token1: "0x8F26b442B6681567f6EaA75828140712f939Fb9e"
+#      - token2: "io1em553udth5j85hjp4z9j3xgdhq00qz7uq5egha"
+#        token1: "0x8F26b442B6681567f6EaA75828140712f939Fb9e"
       # DATA
-      - token2: "io1rt3y6jfg4ph64txhrn6pf54n5jv6mv5mjlp37u"
-        token1: "0x72F30B99C6bc3681508950b47A50fe0b18eF4BE6"
+#      - token2: "io1rt3y6jfg4ph64txhrn6pf54n5jv6mv5mjlp37u"
+#        token1: "0x72F30B99C6bc3681508950b47A50fe0b18eF4BE6"
       # MYST
-      - token2: "io1t6ujp39vhku3adg3uxajjvcgyu5h36q8yfsurk"
-        token1: "0x9D06d28aDaC1d9843034c61EE22991469413d790"
+#      - token2: "io1t6ujp39vhku3adg3uxajjvcgyu5h36q8yfsurk"
+#        token1: "0x9D06d28aDaC1d9843034c61EE22991469413d790"
       # ECLD
-      - token2: "io15ceyyccy8cwz5cx3vwdteckk3tzy2y2l9802y0"
-        token1: "0x85D62B139464aaFEA83EdF790D2e723560b837bb"
+#      - token2: "io15ceyyccy8cwz5cx3vwdteckk3tzy2y2l9802y0"
+#        token1: "0x85D62B139464aaFEA83EdF790D2e723560b837bb"

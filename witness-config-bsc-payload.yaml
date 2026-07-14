@@ -16,18 +16,24 @@ cashiers:
     validatorContractAddress: "0x915241176a644A29F46F5F4F8Bd49309e461a9bD"
     transferTableName: "bsc_transfers"
     tokenPairs:
-#       - token1: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
-#         token2: "io1jlnvfzr8lhper2xla8gknmxsqhgajq5ravu4wr"
+      # WBNB
+      - token1: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+        token2: "io1jlnvfzr8lhper2xla8gknmxsqhgajq5ravu4wr"
+      # BUSD
 #       - token1: "0xe9e7cea3dedca5984780bafc599bd69add087d56"
 #         token2: "io1sj4uk2pjhesxxsd9qy52avwmgw4qzazfrypm04"
-#       - token1: "0x810ee35443639348adbbc467b33310d2ab43c168"
-#         token2: "io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh"
+      # CYC
+      - token1: "0x810ee35443639348adbbc467b33310d2ab43c168"
+        token2: "io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh"
+      # CIOTX
 #       - token1: "0x2aaF50869739e317AB80A57Bf87cAA35F5b60598"
 #         token2: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
-#       - token1: "0x55d398326f99059ff775485246999027b3197955"
-#         token2: "io1gtyj2h272ghg8vtw5ydrhgzv95a0egre4zemtf"
-#       - token1: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
-#         token2: "io1qde5ded9wg540tpv4dkwhrr5lsvva2ga3hf6ry"
+      # BSC-USD
+      - token1: "0x55d398326f99059ff775485246999027b3197955"
+        token2: "io1gtyj2h272ghg8vtw5ydrhgzv95a0egre4zemtf"
+      # USDC
+      - token1: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+        token2: "io1qde5ded9wg540tpv4dkwhrr5lsvva2ga3hf6ry"
 #       - token1: "0x7e544f2fEDDc69b1cB12555779c824CFe100ee34"
 #         token2: "io1p00c9unkxz0zal2fglhguz3y3vnjd6xlx24h8m"
 #       - token1: "0x049Dd7532148826CdE956c7B45fec8c30b514052"
