@@ -12,7 +12,7 @@ validators:
     cashiers:
       - address: "0xe17f31649C42CE0304008C81Fb7A912cE4e82380"
 database:
-  uri: "root:@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "sepolia_transfers"
 witnessTableName: "sepolia_witnesses"

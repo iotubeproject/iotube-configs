@@ -5,7 +5,7 @@ interval: 20s
 batchSize: 100
 confirmBlockNumber: 255
 database:
-  uri: "root:@tcp(localhost:13306)/witness?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"
 cashiers:
   - id: "matic-to-iotex-payload"

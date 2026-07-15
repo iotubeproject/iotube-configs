@@ -12,7 +12,7 @@ validators:
     cashiers:
       - address: "io1s6m6j3cdj0j7hlgupx0pww7wscvkepdjfwgkra"
 database:
-  uri: "root:@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "heco_transfers"
 witnessTableName: "heco_witnesses"
