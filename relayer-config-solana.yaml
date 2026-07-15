@@ -6,7 +6,7 @@ grpcProxyPort: 8007
 privateKey: ""
 slackWebHook: "" 
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "solana_transfers"
 witnessTableName: "solana_witnesses"

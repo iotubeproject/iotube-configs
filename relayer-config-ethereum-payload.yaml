@@ -41,7 +41,7 @@ unwrappers:
     # WETH -> ETH
     0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: "0x0000000000000000000000000000000000000000"
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "ethereum_transfers"
 witnessTableName: "ethereum_witnesses"

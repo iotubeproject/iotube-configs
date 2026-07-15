@@ -4,7 +4,7 @@ grpcProxyPort: 9121
 interval: 1m
 batchSize: 150
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(localhost:13306)/witness?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"
 cashiers:
   - id: "solana-to-iotex"

@@ -4,7 +4,7 @@ grpcProxyPort: 9281
 interval: 1m
 batchSize: 1000
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(localhost:13306)/witness?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"
 cashiers:
 #   - id: "iotex-to-ethereum-payload"

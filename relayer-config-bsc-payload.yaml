@@ -27,7 +27,7 @@ unwrappers:
 #     # NB
 #     0xD0781be7335ec2C820bD3F9687dDe809892d985e: "0xc2bD425A63800731E3Ae42b6596BDD783299fCb1"
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "bsc_transfers"
 witnessTableName: "bsc_witnesses"

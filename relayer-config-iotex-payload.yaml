@@ -32,7 +32,7 @@ unwrappers:
 #     # old DATA -> new DATA
 #     0x1ae24d4928a86faaacd71cf414d2b3a499adb29b: "0xD94be6fd546d4cE502CB1E870A58330Cc8869e9B"
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "iotex_transfers"
 witnessTableName: "iotex_witnesses"
