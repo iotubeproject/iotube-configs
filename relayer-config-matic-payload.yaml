@@ -32,7 +32,7 @@ unwrappers:
     # ECLD
     0x85D62B139464aaFEA83EdF790D2e723560b837bb: "0xc6920888988cAcEeA7ACCA0c96f2D65b05eE22Ba"
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "matic_transfers"
 witnessTableName: "matic_witnesses"

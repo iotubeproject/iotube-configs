@@ -4,7 +4,7 @@ grpcProxyPort: 9287
 interval: 10s
 batchSize: 10
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(localhost:13306)/witness?parseTime=true"
+  uri: "root:@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"
 cashiers:
   - id: "bsc-to-iotex-payload"

@@ -12,7 +12,7 @@ validators:
     cashiers:
       - address: "io1aw89kuzrlyekzvwqyw3e82c880qaxwup5hv7ee"
 database:
-  uri: "root:kdfjjrU64fjK58H@tcp(database:3306)/relayer?parseTime=true"
+  uri: "root:@tcp(database:3306)/relayer?parseTime=true"
   driver: "mysql"
 transferTableName: "polis_transfers"
 witnessTableName: "polis_witnesses"
