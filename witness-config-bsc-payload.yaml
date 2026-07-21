@@ -1,4 +1,6 @@
 chain: "bsc"
+confirmBlockNumber: 20
+useFinalizedBlock: true
 grpcPort: 9286
 grpcProxyPort: 9287
 interval: 10s
