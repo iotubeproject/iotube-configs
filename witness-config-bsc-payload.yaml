@@ -3,8 +3,8 @@ confirmBlockNumber: 50
 useFinalizedBlock: true
 grpcPort: 9286
 grpcProxyPort: 9287
-interval: 10s
-batchSize: 10
+interval: 15s
+batchSize: 2000
 database:
   uri: "root:${DB_ROOT_PASSWORD}@tcp(localhost:13306)/witness?parseTime=true"
   driver: "mysql"

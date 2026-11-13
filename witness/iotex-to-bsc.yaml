@@ -1,0 +1,66 @@
+# ioTube witness route: iotex-to-bsc
+# Operator values come from the environment (<data-dir>/etc/.env, see
+# .env.example in ioTube/witness-service). The witness reads WITNESS_PRIVATE_KEY
+# (or WITNESS_KMS_KEY_ID), RELAYER_URL and the sign-policy settings from the
+# environment as well; this file needs no edits.
+chain: "iotex"
+grpcPort: 9280
+grpcProxyPort: 9281
+interval: 1m
+batchSize: 1000
+database:
+  uri: "root:${DB_ROOT_PASSWORD}@tcp(localhost:13306)/witness?parseTime=true"
+  driver: "mysql"
+clientURL: "${IOTEX_RPC_URL}"
+cashiers:
+  - id: "iotex-to-bsc-payload"
+    withPayload: true
+    relayerURL: ":7203"
+    cashierContractAddress: "0xa016f866a606221E9C9E6ab3a942Bfc81F6074f4"
+    tokenSafeContractAddress: "0xc4A29a94f12be03033daa4e6Ce9b9678c26275a2"
+    validatorContractAddress: "0x95C6F6Af2c0Fa069768203FDa963d7626efC794a"
+    startBlockHeight: ${IOTEX_TO_BSC_START_HEIGHT}
+    transferTableName: "iotex_to_bsc_transfers"
+    tokenPairs:
+      # WBNB
+      - token1: "io1jlnvfzr8lhper2xla8gknmxsqhgajq5ravu4wr"
+        token2: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      # BUSD
+#       - token1: "io1sj4uk2pjhesxxsd9qy52avwmgw4qzazfrypm04"
+#         token2: "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+      # CYC
+      - token1: "io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh"
+        token2: "0x810ee35443639348adbbc467b33310d2ab43c168"
+      # CIOTX
+#       - token1: "io1nxetpma4de3wx6tqcgxdtj5wc64a24t64dc76s"
+#         token2: "0x2aaF50869739e317AB80A57Bf87cAA35F5b60598"
+      # BSC-USD
+      - token1: "io1gtyj2h272ghg8vtw5ydrhgzv95a0egre4zemtf"
+        token2: "0x55d398326f99059ff775485246999027b3197955"
+      # USDC
+      - token1: "io1qde5ded9wg540tpv4dkwhrr5lsvva2ga3hf6ry"
+        token2: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+#       # CFOR
+#       - token1: "io1p00c9unkxz0zal2fglhguz3y3vnjd6xlx24h8m"
+#         token2: "0x7e544f2fEDDc69b1cB12555779c824CFe100ee34"
+#       # TEX
+#       - token1: "io19zrne65vymmq8v2exluesk5g33w6tlvskfj3c9"
+#         token2: "0x049Dd7532148826CdE956c7B45fec8c30b514052"
+#       # CbioShib
+#       - token1: "io1cx6cvg9dswfc83nzhl5qmdz3gdzda3khtt6asw"
+#         token2: "0xa0CB9c8e470EC591dd7f5De650af9468EE6f7d5A"
+#       # THC
+#       - token1: "io1kn9axz8g08qv8gafj6kkcatkky362ph5jntc9r"
+#         token2: "0x8Dfb1099C53f634BEcf3C98aE19eB1BAA1b37D43"
+#       # IoTexShiba
+#       - token1: "io1ld5l9sxecjzkftkn9tcudu6z5qmvjj2zfamvcw"
+#         token2: "0x52702a7301be185cc97bf3fe6d497a83e7772fde"
+#       # DRF
+#       - token1: "io1mm5eya89mz3dmp0lqtlfuydf67nrdhnwg92dy4"
+#         token2: "0x02dF5253Bc4EfC9F8f744133Ff99981b18Df0473"
+      # XPIN
+      - token1: "io10gn4cf76dchldp6zkhgh6y0d4dq8lye8d53kjj"
+        token2: "0x486501a021514ac9a3e5023b5ea4a69a93b725ca"
+#       # NB
+#       - token1: "io130c604xy86n3l0c5s5yx4a4lzklslh6ptq0m94"
+#         token2: "0xD0781be7335ec2C820bD3F9687dDe809892d985e"
